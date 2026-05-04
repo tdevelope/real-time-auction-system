@@ -1,0 +1,75 @@
+<div class="container">
+
+  @if (auction() === null) {
+    <div class="loading">
+      <div class="spinner"></div>
+      <p>טוען מכירה...</p>
+    </div>
+  }
+
+  @if (auction(); as a) {
+    <div class="detail-card">
+
+      <div class="header">
+        <div class="header-top">
+          <h1>{{ a.title }}</h1>
+          <span class="status" [class.open]="a.status === 'Open'"
+                               [class.closed]="a.status === 'Closed'">
+            {{ a.status === 'Open' ? 'פתוח' : 'סגור' }}
+          </span>
+        </div>
+        <p class="description">{{ a.description }}</p>
+      </div>
+
+      <div class="stats">
+        <div class="stat-box">
+          <span class="stat-label">מחיר התחלתי</span>
+          <span class="stat-value">₪{{ a.startingPrice }}</span>
+        </div>
+        <div class="stat-box highlight">
+          <span class="stat-label">מחיר נוכחי</span>
+          <span class="stat-value">₪{{ a.currentHighestBid }}</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-label">זמן שנותר</span>
+          <span class="stat-value timer">{{ timeLeft() }}</span>
+        </div>
+      </div>
+
+      @if (a.status === 'Open') {
+        <div class="bid-section">
+          <h3>הגש הצעת מחיר</h3>
+
+          @if (errorMessage()) {
+            <div class="alert error">{{ errorMessage() }}</div>
+          }
+
+          @if (successMessage()) {
+            <div class="alert success">{{ successMessage() }}</div>
+          }
+
+          <div class="bid-form">
+            <input
+              type="number"
+              [value]="bidAmount()"
+              (input)="bidAmount.set(+$any($event.target).value)"
+              [min]="a.currentHighestBid + 1"
+              placeholder="סכום הצעה"
+            />
+            <button (click)="placeBid()" class="bid-btn">
+              💰 שלח הצעה
+            </button>
+          </div>
+        </div>
+      }
+
+      @if (a.status === 'Closed') {
+        <div class="closed-banner">
+          🔒 המכירה הסתיימה — המחיר הסופי: ₪{{ a.currentHighestBid }}
+        </div>
+      }
+
+    </div>
+  }
+
+</div>

@@ -1,0 +1,47 @@
+<div class="container">
+
+  <div class="header">
+    <h1 class="title">🔨 מכירות פומביות</h1>
+
+    <button class="add-btn" routerLink="/auctions/create">
+      + יצירת מכירה
+    </button>
+  </div>
+
+  @if (auctions().length === 0) {
+    <p class="empty">אין מכירות פומביות כרגע</p>
+  }
+
+  <div class="grid">
+    @for (auction of auctions(); track auction.id) {
+      <div class="card" (click)="goToAuction(auction.id)">
+
+        <div class="card-header">
+          <h2>{{ auction.title }}</h2>
+
+          <span class="status"
+                [class.open]="auction.status === 'Open'"
+                [class.closed]="auction.status === 'Closed'">
+            {{ auction.status === 'Open' ? 'פתוח' : 'סגור' }}
+          </span>
+        </div>
+
+        <p class="description">{{ auction.description }}</p>
+
+        <div class="card-footer">
+          <div class="bid">
+            <span class="label">מחיר נוכחי</span>
+            <span class="amount">₪{{ auction.currentHighestBid }}</span>
+          </div>
+
+          <div class="time">
+            <span class="label">זמן שנותר</span>
+            <span class="value">{{ getTimeLeft(auction.endTime) }}</span>
+          </div>
+        </div>
+
+      </div>
+    }
+  </div>
+
+</div>

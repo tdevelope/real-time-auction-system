@@ -1,0 +1,28 @@
+<p>auction-create works!</p>
+<div class="container">
+
+  <div class="card">
+
+    <h2>יצירת מכירה חדשה</h2>
+
+    <form [formGroup]="form" (ngSubmit)="submit()">
+
+      <input placeholder="כותרת" formControlName="title" />
+
+      <textarea placeholder="תיאור" formControlName="description"></textarea>
+
+      <input type="number" placeholder="מחיר פתיחה" formControlName="startingPrice" />
+
+      <input type="datetime-local" formControlName="endTime" />
+
+      <button type="submit" [disabled]="loading">
+        {{ loading ? 'שולח...' : 'צור מכירה' }}
+      </button>
+
+      <p class="error" *ngIf="error">{{ error }}</p>
+
+    </form>
+
+  </div>
+
+</div>

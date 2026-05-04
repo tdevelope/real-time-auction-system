@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #0f0c29;
+}
+
+.card {
+  width: 420px;
+  padding: 25px;
+  background: #1a1a2e;
+  border-radius: 12px;
+  color: white;
+  box-shadow: 0 0 20px rgba(130,80,255,0.2);
+}
+
+input, textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  background: #0f0c29;
+  color: white;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #8250ff;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.error {
+  color: #ff4d4d;
+  margin-top: 10px;
+}
