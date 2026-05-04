@@ -1,23 +1,49 @@
+# .NET / C# specific
+bin/
+obj/
+*.user
+*.suo
+*.sln.docstates
+.vs/
+appsettings.*.json
+!appsettings.json
+!appsettings.Development.json
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
 # Angular specific
-/dist/
-/out-tsc/
-/tmp/
-/coverage/
-/e2e/test-output/
-/.angular/
+dist/
+out-tsc/
+tmp/
+coverage/
+e2e/test-output/
 .angular/
+.angular-cli.json
 
 # Node modules and dependency files
-/node_modules/
-/package-lock.json
-/yarn.lock
+node_modules/
+package-lock.json
+yarn.lock
 
 # Environment files
-/.env
+.env
+.env.local
+.env.*.local
 
-# Angular CLI and build artefacts
-/.angular-cli.json
-/.ng/
+# IDE and Editor
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
 
 # TypeScript cache
 *.tsbuildinfo
@@ -26,3 +52,13 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+debug.log*
+
+# Build artifacts
+build/
+*.o
+*.class
+
+# System files
+.DS_Store
+Thumbs.db
