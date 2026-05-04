@@ -1,0 +1,411 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA SQLINK\\real-time-auction-system\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{49795F95-6F98-4799-8FCA-298AAFBECE24}|backend\\backend.csproj|c:\\users\\user1\\desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA sqlink\\real-time-auction-system\\backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49795F95-6F98-4799-8FCA-298AAFBECE24}|backend\\backend.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49795F95-6F98-4799-8FCA-298AAFBECE24}|backend\\backend.csproj|c:\\users\\user1\\desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA sqlink\\real-time-auction-system\\backend\\backend\\controllers\\auctionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49795F95-6F98-4799-8FCA-298AAFBECE24}|backend\\backend.csproj|solutionrelative:backend\\controllers\\auctionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49795F95-6F98-4799-8FCA-298AAFBECE24}|backend\\backend.csproj|c:\\users\\user1\\desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA sqlink\\real-time-auction-system\\backend\\backend\\infrastructure\\repositories\\auctionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49795F95-6F98-4799-8FCA-298AAFBECE24}|backend\\backend.csproj|solutionrelative:backend\\infrastructure\\repositories\\auctionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49795F95-6F98-4799-8FCA-298AAFBECE24}|backend\\backend.csproj|c:\\users\\user1\\desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA sqlink\\real-time-auction-system\\backend\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{49795F95-6F98-4799-8FCA-298AAFBECE24}|backend\\backend.csproj|solutionrelative:backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49795F95-6F98-4799-8FCA-298AAFBECE24}|backend\\backend.csproj|c:\\users\\user1\\desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA sqlink\\real-time-auction-system\\backend\\backend\\infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49795F95-6F98-4799-8FCA-298AAFBECE24}|backend\\backend.csproj|solutionrelative:backend\\infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49795F95-6F98-4799-8FCA-298AAFBECE24}|backend\\backend.csproj|c:\\users\\user1\\desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA sqlink\\real-time-auction-system\\backend\\backend\\infrastructure\\backgroundjobs\\auctionclosingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49795F95-6F98-4799-8FCA-298AAFBECE24}|backend\\backend.csproj|solutionrelative:backend\\infrastructure\\backgroundjobs\\auctionclosingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49795F95-6F98-4799-8FCA-298AAFBECE24}|backend\\backend.csproj|c:\\users\\user1\\desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA sqlink\\real-time-auction-system\\backend\\backend\\infrastructure\\repositories\\bidrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49795F95-6F98-4799-8FCA-298AAFBECE24}|backend\\backend.csproj|solutionrelative:backend\\infrastructure\\repositories\\bidrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49795F95-6F98-4799-8FCA-298AAFBECE24}|backend\\backend.csproj|c:\\users\\user1\\desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA sqlink\\real-time-auction-system\\backend\\backend\\infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49795F95-6F98-4799-8FCA-298AAFBECE24}|backend\\backend.csproj|solutionrelative:backend\\infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49795F95-6F98-4799-8FCA-298AAFBECE24}|backend\\backend.csproj|c:\\users\\user1\\desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA sqlink\\real-time-auction-system\\backend\\backend\\application\\services\\bidservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49795F95-6F98-4799-8FCA-298AAFBECE24}|backend\\backend.csproj|solutionrelative:backend\\application\\services\\bidservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49795F95-6F98-4799-8FCA-298AAFBECE24}|backend\\backend.csproj|c:\\users\\user1\\desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA sqlink\\real-time-auction-system\\backend\\backend\\infrastructure\\hubs\\auctionhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49795F95-6F98-4799-8FCA-298AAFBECE24}|backend\\backend.csproj|solutionrelative:backend\\infrastructure\\hubs\\auctionhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49795F95-6F98-4799-8FCA-298AAFBECE24}|backend\\backend.csproj|c:\\users\\user1\\desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA sqlink\\real-time-auction-system\\backend\\backend\\application\\services\\auctionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49795F95-6F98-4799-8FCA-298AAFBECE24}|backend\\backend.csproj|solutionrelative:backend\\application\\services\\auctionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49795F95-6F98-4799-8FCA-298AAFBECE24}|backend\\backend.csproj|c:\\users\\user1\\desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA sqlink\\real-time-auction-system\\backend\\backend\\application\\interfaces\\iauctionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49795F95-6F98-4799-8FCA-298AAFBECE24}|backend\\backend.csproj|solutionrelative:backend\\application\\interfaces\\iauctionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49795F95-6F98-4799-8FCA-298AAFBECE24}|backend\\backend.csproj|c:\\users\\user1\\desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA sqlink\\real-time-auction-system\\backend\\backend\\application\\dtos\\createbiddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49795F95-6F98-4799-8FCA-298AAFBECE24}|backend\\backend.csproj|solutionrelative:backend\\application\\dtos\\createbiddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49795F95-6F98-4799-8FCA-298AAFBECE24}|backend\\backend.csproj|c:\\users\\user1\\desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA sqlink\\real-time-auction-system\\backend\\backend\\application\\dtos\\auctiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49795F95-6F98-4799-8FCA-298AAFBECE24}|backend\\backend.csproj|solutionrelative:backend\\application\\dtos\\auctiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49795F95-6F98-4799-8FCA-298AAFBECE24}|backend\\backend.csproj|c:\\users\\user1\\desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA sqlink\\real-time-auction-system\\backend\\backend\\application\\dtos\\createauctiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49795F95-6F98-4799-8FCA-298AAFBECE24}|backend\\backend.csproj|solutionrelative:backend\\application\\dtos\\createauctiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49795F95-6F98-4799-8FCA-298AAFBECE24}|backend\\backend.csproj|c:\\users\\user1\\desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA sqlink\\real-time-auction-system\\backend\\backend\\application\\interfaces\\ibidrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49795F95-6F98-4799-8FCA-298AAFBECE24}|backend\\backend.csproj|solutionrelative:backend\\application\\interfaces\\ibidrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49795F95-6F98-4799-8FCA-298AAFBECE24}|backend\\backend.csproj|c:\\users\\user1\\desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA sqlink\\real-time-auction-system\\backend\\backend\\domain\\entities\\auction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49795F95-6F98-4799-8FCA-298AAFBECE24}|backend\\backend.csproj|solutionrelative:backend\\domain\\entities\\auction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49795F95-6F98-4799-8FCA-298AAFBECE24}|backend\\backend.csproj|c:\\users\\user1\\desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA sqlink\\real-time-auction-system\\backend\\backend\\controllers\\bidscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49795F95-6F98-4799-8FCA-298AAFBECE24}|backend\\backend.csproj|solutionrelative:backend\\controllers\\bidscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49795F95-6F98-4799-8FCA-298AAFBECE24}|backend\\backend.csproj|c:\\users\\user1\\desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA sqlink\\real-time-auction-system\\backend\\backend\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49795F95-6F98-4799-8FCA-298AAFBECE24}|backend\\backend.csproj|solutionrelative:backend\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49795F95-6F98-4799-8FCA-298AAFBECE24}|backend\\backend.csproj|c:\\users\\user1\\desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA sqlink\\real-time-auction-system\\backend\\backend\\application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49795F95-6F98-4799-8FCA-298AAFBECE24}|backend\\backend.csproj|solutionrelative:backend\\application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49795F95-6F98-4799-8FCA-298AAFBECE24}|backend\\backend.csproj|c:\\users\\user1\\desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA sqlink\\real-time-auction-system\\backend\\backend\\application\\dtos\\biddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49795F95-6F98-4799-8FCA-298AAFBECE24}|backend\\backend.csproj|solutionrelative:backend\\application\\dtos\\biddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49795F95-6F98-4799-8FCA-298AAFBECE24}|backend\\backend.csproj|c:\\users\\user1\\desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA sqlink\\real-time-auction-system\\backend\\backend\\domain\\entities\\bid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49795F95-6F98-4799-8FCA-298AAFBECE24}|backend\\backend.csproj|solutionrelative:backend\\domain\\entities\\bid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49795F95-6F98-4799-8FCA-298AAFBECE24}|backend\\backend.csproj|c:\\users\\user1\\desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA sqlink\\real-time-auction-system\\backend\\backend\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49795F95-6F98-4799-8FCA-298AAFBECE24}|backend\\backend.csproj|solutionrelative:backend\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuctionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA SQLINK\\real-time-auction-system\\backend\\backend\\Infrastructure\\Repositories\\AuctionRepository.cs",
+              "RelativeDocumentMoniker": "backend\\Infrastructure\\Repositories\\AuctionRepository.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA SQLINK\\real-time-auction-system\\backend\\backend\\Infrastructure\\Repositories\\AuctionRepository.cs",
+              "RelativeToolTip": "backend\\Infrastructure\\Repositories\\AuctionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T09:58:10.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuctionClosingService.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA SQLINK\\real-time-auction-system\\backend\\backend\\Infrastructure\\BackgroundJobs\\AuctionClosingService.cs",
+              "RelativeDocumentMoniker": "backend\\Infrastructure\\BackgroundJobs\\AuctionClosingService.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA SQLINK\\real-time-auction-system\\backend\\backend\\Infrastructure\\BackgroundJobs\\AuctionClosingService.cs",
+              "RelativeToolTip": "backend\\Infrastructure\\BackgroundJobs\\AuctionClosingService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwBMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T10:40:19.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA SQLINK\\real-time-auction-system\\backend\\backend\\Program.cs",
+              "RelativeDocumentMoniker": "backend\\Program.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA SQLINK\\real-time-auction-system\\backend\\backend\\Program.cs*",
+              "RelativeToolTip": "backend\\Program.cs*",
+              "ViewState": "AgIAABAAAAAAAAAAAAAcwCMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T10:43:45.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA SQLINK\\real-time-auction-system\\backend\\backend\\Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "backend\\Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA SQLINK\\real-time-auction-system\\backend\\backend\\Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "backend\\Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T09:58:29.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuctionsController.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA SQLINK\\real-time-auction-system\\backend\\backend\\Controllers\\AuctionsController.cs",
+              "RelativeDocumentMoniker": "backend\\Controllers\\AuctionsController.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA SQLINK\\real-time-auction-system\\backend\\backend\\Controllers\\AuctionsController.cs",
+              "RelativeToolTip": "backend\\Controllers\\AuctionsController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwCYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T09:59:09.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA SQLINK\\real-time-auction-system\\backend\\backend\\appsettings.json",
+              "RelativeDocumentMoniker": "backend\\appsettings.json",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA SQLINK\\real-time-auction-system\\backend\\backend\\appsettings.json",
+              "RelativeToolTip": "backend\\appsettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-04T11:03:29.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA SQLINK\\real-time-auction-system\\backend\\backend\\Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "backend\\Infrastructure\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA SQLINK\\real-time-auction-system\\backend\\backend\\Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "backend\\Infrastructure\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T09:58:01.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BidRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA SQLINK\\real-time-auction-system\\backend\\backend\\Infrastructure\\Repositories\\BidRepository.cs",
+              "RelativeDocumentMoniker": "backend\\Infrastructure\\Repositories\\BidRepository.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA SQLINK\\real-time-auction-system\\backend\\backend\\Infrastructure\\Repositories\\BidRepository.cs",
+              "RelativeToolTip": "backend\\Infrastructure\\Repositories\\BidRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T09:58:19.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BidService.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA SQLINK\\real-time-auction-system\\backend\\backend\\Application\\Services\\BidService.cs",
+              "RelativeDocumentMoniker": "backend\\Application\\Services\\BidService.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA SQLINK\\real-time-auction-system\\backend\\backend\\Application\\Services\\BidService.cs",
+              "RelativeToolTip": "backend\\Application\\Services\\BidService.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAYwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T09:57:37.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuctionDto.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA SQLINK\\real-time-auction-system\\backend\\backend\\Application\\DTOs\\AuctionDto.cs",
+              "RelativeDocumentMoniker": "backend\\Application\\DTOs\\AuctionDto.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA SQLINK\\real-time-auction-system\\backend\\backend\\Application\\DTOs\\AuctionDto.cs",
+              "RelativeToolTip": "backend\\Application\\DTOs\\AuctionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T09:55:53.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuctionService.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA SQLINK\\real-time-auction-system\\backend\\backend\\Application\\Services\\AuctionService.cs",
+              "RelativeDocumentMoniker": "backend\\Application\\Services\\AuctionService.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA SQLINK\\real-time-auction-system\\backend\\backend\\Application\\Services\\AuctionService.cs",
+              "RelativeToolTip": "backend\\Application\\Services\\AuctionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T09:57:27.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IAuctionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA SQLINK\\real-time-auction-system\\backend\\backend\\Application\\Interfaces\\IAuctionRepository.cs",
+              "RelativeDocumentMoniker": "backend\\Application\\Interfaces\\IAuctionRepository.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA SQLINK\\real-time-auction-system\\backend\\backend\\Application\\Interfaces\\IAuctionRepository.cs",
+              "RelativeToolTip": "backend\\Application\\Interfaces\\IAuctionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T09:56:49.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuctionHub.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA SQLINK\\real-time-auction-system\\backend\\backend\\Infrastructure\\Hubs\\AuctionHub.cs",
+              "RelativeDocumentMoniker": "backend\\Infrastructure\\Hubs\\AuctionHub.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA SQLINK\\real-time-auction-system\\backend\\backend\\Infrastructure\\Hubs\\AuctionHub.cs",
+              "RelativeToolTip": "backend\\Infrastructure\\Hubs\\AuctionHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T10:38:34.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IBidRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA SQLINK\\real-time-auction-system\\backend\\backend\\Application\\Interfaces\\IBidRepository.cs",
+              "RelativeDocumentMoniker": "backend\\Application\\Interfaces\\IBidRepository.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA SQLINK\\real-time-auction-system\\backend\\backend\\Application\\Interfaces\\IBidRepository.cs",
+              "RelativeToolTip": "backend\\Application\\Interfaces\\IBidRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T09:57:03.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CreateAuctionDto.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA SQLINK\\real-time-auction-system\\backend\\backend\\Application\\DTOs\\CreateAuctionDto.cs",
+              "RelativeDocumentMoniker": "backend\\Application\\DTOs\\CreateAuctionDto.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA SQLINK\\real-time-auction-system\\backend\\backend\\Application\\DTOs\\CreateAuctionDto.cs",
+              "RelativeToolTip": "backend\\Application\\DTOs\\CreateAuctionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T09:56:12.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateBidDto.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA SQLINK\\real-time-auction-system\\backend\\backend\\Application\\DTOs\\CreateBidDto.cs",
+              "RelativeDocumentMoniker": "backend\\Application\\DTOs\\CreateBidDto.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA SQLINK\\real-time-auction-system\\backend\\backend\\Application\\DTOs\\CreateBidDto.cs",
+              "RelativeToolTip": "backend\\Application\\DTOs\\CreateBidDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T09:56:31.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Auction.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA SQLINK\\real-time-auction-system\\backend\\backend\\Domain\\Entities\\Auction.cs",
+              "RelativeDocumentMoniker": "backend\\Domain\\Entities\\Auction.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA SQLINK\\real-time-auction-system\\backend\\backend\\Domain\\Entities\\Auction.cs",
+              "RelativeToolTip": "backend\\Domain\\Entities\\Auction.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T09:55:16.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BidsController.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA SQLINK\\real-time-auction-system\\backend\\backend\\Controllers\\BidsController.cs",
+              "RelativeDocumentMoniker": "backend\\Controllers\\BidsController.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA SQLINK\\real-time-auction-system\\backend\\backend\\Controllers\\BidsController.cs",
+              "RelativeToolTip": "backend\\Controllers\\BidsController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAwBcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T09:59:30.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA SQLINK\\real-time-auction-system\\backend\\backend\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "backend\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA SQLINK\\real-time-auction-system\\backend\\backend\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "backend\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T09:59:42.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA SQLINK\\real-time-auction-system\\backend\\backend\\Application\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "backend\\Application\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA SQLINK\\real-time-auction-system\\backend\\backend\\Application\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "backend\\Application\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T09:57:13.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BidDto.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA SQLINK\\real-time-auction-system\\backend\\backend\\Application\\DTOs\\BidDto.cs",
+              "RelativeDocumentMoniker": "backend\\Application\\DTOs\\BidDto.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA SQLINK\\real-time-auction-system\\backend\\backend\\Application\\DTOs\\BidDto.cs",
+              "RelativeToolTip": "backend\\Application\\DTOs\\BidDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T09:56:23.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Bid.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA SQLINK\\real-time-auction-system\\backend\\backend\\Domain\\Entities\\Bid.cs",
+              "RelativeDocumentMoniker": "backend\\Domain\\Entities\\Bid.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA SQLINK\\real-time-auction-system\\backend\\backend\\Domain\\Entities\\Bid.cs",
+              "RelativeToolTip": "backend\\Domain\\Entities\\Bid.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T09:55:22.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA SQLINK\\real-time-auction-system\\backend\\backend\\Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "backend\\Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05EA\u05E8\u05D2\u05D9\u05DC \u05D1\u05D9\u05EA SQLINK\\real-time-auction-system\\backend\\backend\\Domain\\Entities\\User.cs",
+              "RelativeToolTip": "backend\\Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T09:55:04.181Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
