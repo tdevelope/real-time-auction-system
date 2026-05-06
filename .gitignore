@@ -1,66 +1,136 @@
+# =========================
 # .NET / C# specific
-bin/
-obj/
-*.user
-*.suo
-*.sln.docstates
-.vs/
-appsettings.*.json
+# =========================
+**/bin/
+**/obj/
+**/.vs/
+**/.vscode/
+backend/.vs/
+backend/backend/bin/
+backend/backend/obj/
+backend/backend/.vs/
+backend/backend/.vscode/
+**/appsettings.*.json
 !appsettings.json
 !appsettings.Development.json
-*.db
-*.sqlite
-*.sqlite3
-*.log
+**/*.user
+**/*.suo
+**/*.sln.docstates
+**/*.db
+**/*.sqlite
+**/*.sqlite3
+**/*.log
+**/*.pdb
+**/*.cache
+Debug/
+Release/
+x64/
+x86/
+**/.nuget/
+**/*.nupkg
+**/*.snupkg
+.mfractor/
+.ionide/
 
-# Angular specific
-dist/
-out-tsc/
-tmp/
-coverage/
-e2e/test-output/
-.angular/
-.angular-cli.json
+# =========================
+# Frontend specific folders
+# =========================
+frontend/.vscode/
+frontend/node_modules/
+frontend/dist/
+frontend/out-tsc/
+frontend/.angular/
+frontend/coverage/
+frontend/e2e/test-output/
+frontend/package-lock.json
+frontend/yarn.lock
 
-# Node modules and dependency files
-node_modules/
-package-lock.json
-yarn.lock
-
+# =========================
 # Environment files
+# =========================
 .env
 .env.local
 .env.*.local
+.env.production.local
+.env.test.local
+backend/**/.env
+frontend/**/.env
 
+# =========================
 # IDE and Editor
+# =========================
 .idea/
-.vs/
 .vscode/
+.vs/
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
-*.swp
-*.swo
+**/.vscode/*
+!**/.vscode/settings.json
+**/*.swp
+**/*.swo
 *~
-.DS_Store
-Thumbs.db
+.code-workspace
+*.sublime-project
+*.sublime-workspace
 
-# TypeScript cache
-*.tsbuildinfo
+# =========================
+# TypeScript
+# =========================
+**/*.tsbuildinfo
+**/*.d.ts
+**/*.js.map
+**/*.css.map
+frontend/src/**/*.js
 
-# Logs
+# =========================
+# Logs and debugging
+# =========================
 npm-debug.log*
+npm-error.log*
 yarn-debug.log*
 yarn-error.log*
 debug.log*
+lerna-debug.log*
+**/logs/
 
+# =========================
 # Build artifacts
-build/
-*.o
-*.class
+# =========================
+**/build/
+.cache/
+.dist/
 
-# System files
+# =========================
+# OS specific files
+# =========================
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
+Desktop.ini
+.directory
+
+# =========================
+# Runtime and temporary files
+# =========================
+**/*.tmp
+**/*.temp
+.tmp/
+**/temp/
+**/*.bak
+**/*.backup
+~*
+
+# =========================
+# Miscellaneous
+# =========================
+testem.log
+.AppleDouble
+.LSOverride
+*.orig
