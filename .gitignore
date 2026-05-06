@@ -32,6 +32,115 @@ x86/
 .mfractor/
 .ionide/
 
+# Environment / Secrets
+
+# dotenv files
+.env
+.env.*.local
+backend/**/.env
+frontend/**/.env
+
+# Visual Studio / .NET
+
+# Build Folders
+**/bin/
+**/obj/
+
+# Visual Studio workspace files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Razor temporary files
+*.ide
+
+# NuGet
+**/packages/
+*.nupkg
+*.snupkg
+.nuget/
+
+# EF Core
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs, caches and pdbs
+*.log
+*.pdb
+*.cache
+
+# Publish / build output
+publish/
+Debug/
+Release/
+x64/
+x86/
+
+# Node / Angular / frontend
+
+frontend/node_modules/
+frontend/dist/
+frontend/out-tsc/
+frontend/.angular/
+frontend/coverage/
+frontend/e2e/test-output/
+frontend/.parcel-cache/
+
+# lockfiles (choose what you use)
+frontend/package-lock.json
+frontend/yarn.lock
+frontend/pnpm-lock.yaml
+
+# TypeScript build info
+**/*.tsbuildinfo
+
+
+# IDEs, Editors, OS
+
+.idea/
+.vscode/
+*.code-workspace
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# swap / temp files
+**/*~
+**/*.swp
+**/*.swo
+*.tmp
+*.temp
+
+# Miscellaneous / tooling
+/.sass-cache
+.cache/
+.dist/
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Keep important config files in repo
+# Allow appsettings.json and appsettings.Development.json if you want them tracked;
+# ignore any other appsettings.* that may contain secrets
+appsettings.json
+appsettings.Development.json
+appsettings.*.json
+!appsettings.json
+!appsettings.Development.json
+
+
 # =========================
 # Frontend specific folders
 # =========================
